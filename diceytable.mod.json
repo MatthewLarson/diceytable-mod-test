@@ -9,7 +9,19 @@
     "script": "scripts/main.js"
   },
   "assets": [
-    "models/chess_set_1k.glb"
+    "models/chess-set-1k-piece-rook-white-01.glb",
+    "models/chess-set-1k-piece-rook-black-01.glb",
+    "models/chess-set-1k-piece-queen-white.glb",
+    "models/chess-set-1k-piece-queen-black.glb",
+    "models/chess-set-1k-piece-pawn-white-01.glb",
+    "models/chess-set-1k-piece-pawn-black-01.glb",
+    "models/chess-set-1k-piece-knight-white-01.glb",
+    "models/chess-set-1k-piece-knight-black-01.glb",
+    "models/chess-set-1k-piece-king-white.glb",
+    "models/chess-set-1k-piece-king-black.glb",
+    "models/chess-set-1k-piece-bishop-white-01.glb",
+    "models/chess-set-1k-piece-bishop-black-01.glb",
+    "models/chess-set-1k-board.glb"
   ],
   "compatibility": {
     "engine": ">=0.1 <1.0"
