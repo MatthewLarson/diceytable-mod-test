@@ -1,3 +1,3 @@
 exports.setup = (api) => {
-  api.log("DiceyTableTestMod loaded.");
+  api.log("Matt's Test Workspace loaded.");
 };

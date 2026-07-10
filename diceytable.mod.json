@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
-  "id": "diceytabletestmod",
-  "name": "DiceyTableTestMod",
+  "id": "matt-s-test-workspace",
+  "name": "Matt's Test Workspace",
   "version": "0.1.0",
   "type": "game-pack",
   "entry": {
