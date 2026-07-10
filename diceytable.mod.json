@@ -1,14 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "id": "matt-s-test-workspace",
-  "name": "Matt's Test Workspace",
+  "id": "new-mod-workspace",
+  "name": "New Mod Workspace",
   "version": "0.1.0",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
     "script": "scripts/main.js"
   },
-  "assets": [],
+  "assets": [
+    "models/chess_set_1k.glb"
+  ],
   "compatibility": {
     "engine": ">=0.1 <1.0"
   },
