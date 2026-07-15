@@ -37,6 +37,7 @@
     "models/chess-set-1k-piece-bishop-black-01.glb",
     "models/chess-set-1k-board.meta.json",
     "models/chess-set-1k-board.glb",
+    "media/screenshot-1.webp",
     "media/screenshot-0.webp",
     "media/cover.webp",
     "media/cover-thumb.webp",
@@ -65,7 +66,7 @@
     "competitive",
     "board"
   ],
-  "description": "# ♟️ Classic Chess\n\nBring the timeless strategy game of **Chess** to Dicey Table! This mod includes everything you need to play a traditional game of chess with a friend, featuring a clean, classic design that feels right at home on any virtual tabletop.\n\n## Features\n\n- ♔ Complete set of 32 chess pieces\n- ⬛ Standard 8×8 chess board\n- 🎨 Classic black and white piece design\n- 👥 Designed for 2 players\n- 🖱️ Easy to pick up, move, and rotate pieces\n- 🎲 Perfect for casual games or competitive matches\n\n## How to Play\n\n1. Invite another player to your table.\n2. Choose who will play White and Black.\n3. White moves first.\n4. Play using the standard rules of chess until one player achieves checkmate, or the game ends in a draw.\n\n## Included\n\n- 1 Chess Board\n- 16 White Pieces\n  \n  - 1 King\n  - 1 Queen\n  - 2 Rooks\n  - 2 Bishops\n  - 2 Knights\n  - 8 Pawns\n- 16 Black Pieces\n  \n  - 1 King\n  - 1 Queen\n  - 2 Rooks\n  - 2 Bishops\n  - 2 Knights\n  - 8 Pawns\n\n## Rules\n\nThis mod follows the traditional rules of chess, including:\n\n- Castling\n- En passant\n- Pawn promotion\n- Check and checkmate\n- Stalemate and standard draw conditions\n\n## Notes\n\nThis is a faithful recreation of classic chess intended for players of all skill levels. No automation or rule enforcement is included, allowing players complete freedom to play however they like.\n\nWhether you're teaching a new player, practicing openings, or battling a longtime rival, this mod provides everything needed for a classic game of chess.\n\n**Good luck, and may the best strategist win!** ♟️",
+  "description": "# ♟️ Classic Chess\n\nBring the timeless strategy game of **Chess** to Dicey Table! This mod includes everything you need to play a traditional game of chess with a friend, featuring a clean, classic design that feels right at home on any virtual tabletop.\n\n## Features\n\n- ♔ Complete set of 32 chess pieces\n- ⬛ Standard 8×8 chess board\n- 🎨 Classic black and white piece design\n- 👥 Designed for 2 players\n- 🖱️ Easy to pick up, move, and rotate pieces\n- 🎲 Perfect for casual games or competitive matches\n\n## How to Play\n\n1. Invite another player to your table.\n2. Choose who will play White and Black.\n3. White moves first.\n4. Play using the standard rules of chess until one player achieves checkmate, or the game ends in a draw.\n\n## Included\n\n- 1 Chess Board\n\n- 16 White Pieces\n\n  - 1 King\n  - 1 Queen\n  - 2 Rooks\n  - 2 Bishops\n  - 2 Knights\n  - 8 Pawns\n\n- 16 Black Pieces\n\n  - 1 King\n  - 1 Queen\n  - 2 Rooks\n  - 2 Bishops\n  - 2 Knights\n  - 8 Pawns\n\n## Rules\n\nThis mod follows the traditional rules of chess, including:\n\n- Castling\n- En passant\n- Pawn promotion\n- Check and checkmate\n- Stalemate and standard draw conditions\n\n## Notes\n\nThis is a faithful recreation of classic chess intended for players of all skill levels. No automation or rule enforcement is included, allowing players complete freedom to play however they like.\n\nWhether you're teaching a new player, practicing openings, or battling a longtime rival, this mod provides everything needed for a classic game of chess.\n\n**Good luck, and may the best strategist win!** ♟️",
   "players": {
     "min": 2,
     "max": 2
@@ -80,6 +81,15 @@
         "y": 0.062146892655367235,
         "w": 0.8056655399438064,
         "h": 0.928561583904023
+      }
+    },
+    {
+      "path": "media/screenshot-1.webp",
+      "crop": {
+        "x": 0.028422405876951343,
+        "y": 0,
+        "w": 0.7751111111111111,
+        "h": 1
       }
     }
   ]
