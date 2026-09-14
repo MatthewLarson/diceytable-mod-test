@@ -33,8 +33,7 @@
     "models/chess-set-1k-piece-queen-white.meta.json",
     "models/chess-set-1k-piece-rook-black-01.glb",
     "models/chess-set-1k-piece-rook-white-01.glb",
-    "models/chess-set-1k-piece-rook-white-01.meta.json",
-    "models/chess_set_1k.glb"
+    "models/chess-set-1k-piece-rook-white-01.meta.json"
   ],
   "compatibility": {
     "engine": ">=0.1 <1.0"
