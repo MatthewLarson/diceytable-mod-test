@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "rendererVersion": 1,
+  "entries": {
+    "media/cover-thumb.webp": {
+      "inputHash": "33aeae1a9315b13d",
+      "file": "thumbnails/media/cover-thumb.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "media/cover.webp": {
+      "inputHash": "455cab73b6335ace",
+      "file": "thumbnails/media/cover.webp.webp",
+      "width": 256,
+      "height": 256
+    },
+    "media/screenshot-0.webp": {
+      "inputHash": "58be29ff9f130d62",
+      "file": "thumbnails/media/screenshot-0.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "media/screenshot-1.webp": {
+      "inputHash": "6dc10f42a94d5165",
+      "file": "thumbnails/media/screenshot-1.webp.webp",
+      "width": 256,
+      "height": 144
+    },
+    "models/chess-set-1k-board.glb": {
+      "inputHash": "e3f83ffbec4f365d",
+      "file": "thumbnails/models/chess-set-1k-board.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-bishop-black-01.glb": {
+      "inputHash": "84247b4bcaf3cb9e",
+      "file": "thumbnails/models/chess-set-1k-piece-bishop-black-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-bishop-white-01.glb": {
+      "inputHash": "da5503bc263ce161",
+      "file": "thumbnails/models/chess-set-1k-piece-bishop-white-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-king-black.glb": {
+      "inputHash": "4669b642b59fd6bf",
+      "file": "thumbnails/models/chess-set-1k-piece-king-black.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-king-white.glb": {
+      "inputHash": "7f8d16729d342380",
+      "file": "thumbnails/models/chess-set-1k-piece-king-white.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-knight-black-01.glb": {
+      "inputHash": "8bfb4acf65cef40e",
+      "file": "thumbnails/models/chess-set-1k-piece-knight-black-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-knight-white-01.glb": {
+      "inputHash": "42228f39924eb761",
+      "file": "thumbnails/models/chess-set-1k-piece-knight-white-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-pawn-black-01.glb": {
+      "inputHash": "866535d1ee7342e6",
+      "file": "thumbnails/models/chess-set-1k-piece-pawn-black-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-pawn-white-01.glb": {
+      "inputHash": "365181912ff4e44c",
+      "file": "thumbnails/models/chess-set-1k-piece-pawn-white-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-queen-black.glb": {
+      "inputHash": "0387b79cb0da28ef",
+      "file": "thumbnails/models/chess-set-1k-piece-queen-black.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-queen-white.glb": {
+      "inputHash": "6476d8fa566bae9e",
+      "file": "thumbnails/models/chess-set-1k-piece-queen-white.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-rook-black-01.glb": {
+      "inputHash": "7026879997eb83df",
+      "file": "thumbnails/models/chess-set-1k-piece-rook-black-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess-set-1k-piece-rook-white-01.glb": {
+      "inputHash": "d2b34c066530e0a5",
+      "file": "thumbnails/models/chess-set-1k-piece-rook-white-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/chess-set-1k-board.glb": {
+      "inputHash": "158f7d2dfc0052c4",
+      "file": "thumbnails/originals/chess-set-1k-board.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/chess-set-1k-piece-bishop-white-01.glb": {
+      "inputHash": "7038703b26db68ac",
+      "file": "thumbnails/originals/chess-set-1k-piece-bishop-white-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/chess-set-1k-piece-king-white.glb": {
+      "inputHash": "c1cf2033cbc11c77",
+      "file": "thumbnails/originals/chess-set-1k-piece-king-white.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/chess-set-1k-piece-knight-white-01.glb": {
+      "inputHash": "8d70d55f9179c455",
+      "file": "thumbnails/originals/chess-set-1k-piece-knight-white-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/chess-set-1k-piece-pawn-white-01.glb": {
+      "inputHash": "70b3a686341f913c",
+      "file": "thumbnails/originals/chess-set-1k-piece-pawn-white-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/chess-set-1k-piece-queen-white.glb": {
+      "inputHash": "a37d147bb66e6b4b",
+      "file": "thumbnails/originals/chess-set-1k-piece-queen-white.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/chess-set-1k-piece-rook-black-01.glb": {
+      "inputHash": "d366a578288a0c39",
+      "file": "thumbnails/originals/chess-set-1k-piece-rook-black-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/chess-set-1k-piece-rook-white-01.glb": {
+      "inputHash": "e637ebc2dda274ed",
+      "file": "thumbnails/originals/chess-set-1k-piece-rook-white-01.glb.webp",
+      "width": 256,
+      "height": 256
+    }
+  }
+}
