@@ -2,7 +2,7 @@
 
 **Chess** is a Chess-like game for [DiceyTable](https://diceytable.com) — a free physics tabletop you play in your browser with friends, with no download required.
 
-**[Play Chess on DiceyTable](https://diceytable.com/games/matt-s-test-workspace)**
+**[Play Chess on DiceyTable](https://diceytable.com/games/chess)**
 
 ---
 

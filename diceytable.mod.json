@@ -9,7 +9,6 @@
     "script": "scripts/main.js"
   },
   "assets": [
-    "assets/decks/deck-1.deck.json",
     "media/cover-thumb.webp",
     "media/cover.webp",
     "media/screenshot-0.webp",
@@ -78,5 +77,6 @@
       }
     }
   ],
-  "category": "chess-like"
+  "category": "chess-like",
+  "slug": "chess"
 }
