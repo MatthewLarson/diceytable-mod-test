@@ -9,6 +9,8 @@
     "script": "scripts/main.js"
   },
   "assets": [
+    "assets/decks/deck-1.deck.json",
+    "assets/textures/decks/deck-1/sheet-1.webp",
     "media/cover-thumb.webp",
     "media/cover.webp",
     "media/screenshot-0.webp",
