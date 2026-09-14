@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "matt-s-test-workspace",
   "name": "Chess",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -78,5 +78,42 @@
     }
   ],
   "category": "chess-like",
-  "slug": "chess"
+  "slug": "chess",
+  "credits": [
+    {
+      "id": "credit-701c40bc-dad6-4dd9-8818-4ea54c4490b9",
+      "paths": [
+        "models/chess-set-1k-piece-rook-white-01.glb",
+        "models/chess-set-1k-piece-rook-black-01.glb",
+        "models/chess-set-1k-piece-queen-white.glb",
+        "models/chess-set-1k-piece-queen-black.glb",
+        "models/chess-set-1k-piece-pawn-white-01.glb",
+        "models/chess-set-1k-piece-pawn-black-01.glb",
+        "models/chess-set-1k-piece-knight-white-01.glb",
+        "models/chess-set-1k-piece-knight-black-01.glb",
+        "models/chess-set-1k-piece-king-white.glb",
+        "models/chess-set-1k-piece-king-black.glb",
+        "models/chess-set-1k-piece-bishop-white-01.glb",
+        "models/chess-set-1k-piece-bishop-black-01.glb",
+        "models/chess-set-1k-board.glb",
+        "media/screenshot-1.webp",
+        "media/screenshot-0.webp",
+        "media/cover.webp",
+        "media/cover-thumb.webp"
+      ],
+      "origin": "third-party",
+      "title": "Chess Set",
+      "creator": "Riley Queen",
+      "creatorUrl": "https://polyhaven.com/all?a=Riley%20Queen",
+      "sourceUrl": "https://polyhaven.com/a/chess_set",
+      "licenseName": "CC0 1.0 (Public Domain)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "recordedAt": "2026-09-14T03:55:07.182Z",
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-09-14T03:55:07.182Z",
+        "signedName": "Matt Larson"
+      }
+    }
+  ]
 }
