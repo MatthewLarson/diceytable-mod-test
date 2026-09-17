@@ -1,0 +1,25 @@
+{
+  "spawnHeight": 0,
+  "locked": true,
+  "materialSlots": {
+    "chess_set_pieces_white": "mat-e723de44-ca8f-4ccb-9ed9-200295049bcb",
+    "chess_set_board": "mat-f7581291-143e-4b86-af8e-6ed8f632cbfe",
+    "chess_set_pieces_black": "mat-7913d0ee-b6b8-4147-bdb1-2124c1ceab07"
+  },
+  "lightmapStatic": true,
+  "collider": {
+    "mode": "custom",
+    "entries": [
+      {
+        "id": "collider-1",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "shape": "convexHull",
+        "source": "render"
+      }
+    ]
+  }
+}

@@ -2,15 +2,69 @@
   "version": 1,
   "rendererVersion": 1,
   "entries": {
+    "@materials/mat-5aae1acb-6066-482f-bc78-1454142774ed": {
+      "inputHash": "645ea3073596c9b4",
+      "file": "thumbnails/@materials/mat-5aae1acb-6066-482f-bc78-1454142774ed.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-7913d0ee-b6b8-4147-bdb1-2124c1ceab07": {
+      "inputHash": "3537250ee91fad7e",
+      "file": "thumbnails/@materials/mat-7913d0ee-b6b8-4147-bdb1-2124c1ceab07.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-82980197-fde4-4998-9f90-0d13cec75c92": {
+      "inputHash": "3537250ee91fad7e",
+      "file": "thumbnails/@materials/mat-82980197-fde4-4998-9f90-0d13cec75c92.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-858a9373-5fe1-4582-9864-88f08431067c": {
+      "inputHash": "1896d4ec4a3b5b65",
+      "file": "thumbnails/@materials/mat-858a9373-5fe1-4582-9864-88f08431067c.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-9af67193-152a-4d03-926c-98096386be83": {
+      "inputHash": "645ea3073596c9b4",
+      "file": "thumbnails/@materials/mat-9af67193-152a-4d03-926c-98096386be83.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-c6ed7bf8-744d-4572-b116-1e96e1dbf029": {
+      "inputHash": "3537250ee91fad7e",
+      "file": "thumbnails/@materials/mat-c6ed7bf8-744d-4572-b116-1e96e1dbf029.webp",
+      "width": 256,
+      "height": 256
+    },
     "@materials/mat-ceiling": {
       "inputHash": "220ee3bdf8d37625",
       "file": "thumbnails/@materials/mat-ceiling.webp",
       "width": 256,
       "height": 256
     },
+    "@materials/mat-d456ec9a-9fff-47b0-934c-98c61306834a": {
+      "inputHash": "1896d4ec4a3b5b65",
+      "file": "thumbnails/@materials/mat-d456ec9a-9fff-47b0-934c-98c61306834a.webp",
+      "width": 256,
+      "height": 256
+    },
     "@materials/mat-default": {
       "inputHash": "eccf03f485688ce9",
       "file": "thumbnails/@materials/mat-default.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-e723de44-ca8f-4ccb-9ed9-200295049bcb": {
+      "inputHash": "1896d4ec4a3b5b65",
+      "file": "thumbnails/@materials/mat-e723de44-ca8f-4ccb-9ed9-200295049bcb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "@materials/mat-f7581291-143e-4b86-af8e-6ed8f632cbfe": {
+      "inputHash": "645ea3073596c9b4",
+      "file": "thumbnails/@materials/mat-f7581291-143e-4b86-af8e-6ed8f632cbfe.webp",
       "width": 256,
       "height": 256
     },
@@ -25,12 +79,6 @@
       "file": "thumbnails/@materials/mat-wall.webp",
       "width": 256,
       "height": 256
-    },
-    "assets/textures/decks/deck-1/sheet-1.webp": {
-      "inputHash": "2d1e5bef482307b5",
-      "file": "thumbnails/assets/textures/decks/deck-1/sheet-1.webp.webp",
-      "width": 256,
-      "height": 239
     },
     "media/cover-thumb.webp": {
       "inputHash": "33aeae1a9315b13d",
@@ -56,81 +104,93 @@
       "width": 256,
       "height": 144
     },
-    "models/chess-set-1k-board.glb": {
-      "inputHash": "e3f83ffbec4f365d",
-      "file": "thumbnails/models/chess-set-1k-board.glb.webp",
+    "models/chess_set_1k.glb": {
+      "inputHash": "faad9049e3383bfd",
+      "file": "thumbnails/models/chess_set_1k.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-bishop-black-01.glb": {
-      "inputHash": "84247b4bcaf3cb9e",
-      "file": "thumbnails/models/chess-set-1k-piece-bishop-black-01.glb.webp",
+    "models/chess_set_1k/chess-set-1k-board.glb": {
+      "inputHash": "d66c380f1cc062c1",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-board.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-bishop-white-01.glb": {
-      "inputHash": "da5503bc263ce161",
-      "file": "thumbnails/models/chess-set-1k-piece-bishop-white-01.glb.webp",
+    "models/chess_set_1k/chess-set-1k-piece-bishop-black-01.glb": {
+      "inputHash": "e191dd9cd96885d7",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-bishop-black-01.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-king-black.glb": {
-      "inputHash": "4669b642b59fd6bf",
-      "file": "thumbnails/models/chess-set-1k-piece-king-black.glb.webp",
+    "models/chess_set_1k/chess-set-1k-piece-bishop-white-01.glb": {
+      "inputHash": "1b39e3c5c6804304",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-bishop-white-01.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-king-white.glb": {
-      "inputHash": "7f8d16729d342380",
-      "file": "thumbnails/models/chess-set-1k-piece-king-white.glb.webp",
+    "models/chess_set_1k/chess-set-1k-piece-king-black.glb": {
+      "inputHash": "8a96915add91aec0",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-king-black.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-knight-black-01.glb": {
-      "inputHash": "8bfb4acf65cef40e",
-      "file": "thumbnails/models/chess-set-1k-piece-knight-black-01.glb.webp",
+    "models/chess_set_1k/chess-set-1k-piece-king-white.glb": {
+      "inputHash": "bdeb942c82469fbc",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-king-white.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-knight-white-01.glb": {
-      "inputHash": "42228f39924eb761",
-      "file": "thumbnails/models/chess-set-1k-piece-knight-white-01.glb.webp",
+    "models/chess_set_1k/chess-set-1k-piece-knight-black-01.glb": {
+      "inputHash": "98c5c10cd6f1b830",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-knight-black-01.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-pawn-black-01.glb": {
-      "inputHash": "866535d1ee7342e6",
-      "file": "thumbnails/models/chess-set-1k-piece-pawn-black-01.glb.webp",
+    "models/chess_set_1k/chess-set-1k-piece-knight-white-01.glb": {
+      "inputHash": "5bf041fc3da6ecc1",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-knight-white-01.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-pawn-white-01.glb": {
-      "inputHash": "365181912ff4e44c",
-      "file": "thumbnails/models/chess-set-1k-piece-pawn-white-01.glb.webp",
+    "models/chess_set_1k/chess-set-1k-piece-pawn-black-01.glb": {
+      "inputHash": "e384169938f8ea6c",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-pawn-black-01.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-queen-black.glb": {
-      "inputHash": "0387b79cb0da28ef",
-      "file": "thumbnails/models/chess-set-1k-piece-queen-black.glb.webp",
+    "models/chess_set_1k/chess-set-1k-piece-pawn-white-01.glb": {
+      "inputHash": "864ebceeb8ea18d1",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-pawn-white-01.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-queen-white.glb": {
-      "inputHash": "6476d8fa566bae9e",
-      "file": "thumbnails/models/chess-set-1k-piece-queen-white.glb.webp",
+    "models/chess_set_1k/chess-set-1k-piece-queen-black.glb": {
+      "inputHash": "e75fcf71094e2edd",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-queen-black.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-rook-black-01.glb": {
-      "inputHash": "7026879997eb83df",
-      "file": "thumbnails/models/chess-set-1k-piece-rook-black-01.glb.webp",
+    "models/chess_set_1k/chess-set-1k-piece-queen-white.glb": {
+      "inputHash": "2a3c31a6216e0c94",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-queen-white.glb.webp",
       "width": 256,
       "height": 256
     },
-    "models/chess-set-1k-piece-rook-white-01.glb": {
-      "inputHash": "d2b34c066530e0a5",
-      "file": "thumbnails/models/chess-set-1k-piece-rook-white-01.glb.webp",
+    "models/chess_set_1k/chess-set-1k-piece-rook-black-01.glb": {
+      "inputHash": "8400c1784fe077a2",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-rook-black-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess_set_1k/chess-set-1k-piece-rook-white-01.glb": {
+      "inputHash": "aaf693c6390e2872",
+      "file": "thumbnails/models/chess_set_1k/chess-set-1k-piece-rook-white-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "models/chess_set_1k/chess_set_1k.assembly.json": {
+      "inputHash": "aa14acf2e5111c27",
+      "file": "thumbnails/models/chess_set_1k/chess_set_1k.assembly.json.webp",
       "width": 256,
       "height": 256
     },
@@ -179,6 +239,66 @@
     "originals/chess-set-1k-piece-rook-white-01.glb": {
       "inputHash": "e637ebc2dda274ed",
       "file": "thumbnails/originals/chess-set-1k-piece-rook-white-01.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "originals/chess_set_1k.glb": {
+      "inputHash": "e5562b367e387836",
+      "file": "thumbnails/originals/chess_set_1k.glb.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/chess-set-1k/chess-set-board-diff-cca44d21.jpg": {
+      "inputHash": "d1facc23169ff78b",
+      "file": "thumbnails/textures/chess-set-1k/chess-set-board-diff-cca44d21.jpg.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/chess-set-1k/chess-set-board-nor-gl-bc5657ec.jpg": {
+      "inputHash": "b05ebdf727dd2ecb",
+      "file": "thumbnails/textures/chess-set-1k/chess-set-board-nor-gl-bc5657ec.jpg.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/chess-set-1k/chess-set-board-rough-67387308.jpg": {
+      "inputHash": "6f2435867f843997",
+      "file": "thumbnails/textures/chess-set-1k/chess-set-board-rough-67387308.jpg.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/chess-set-1k/chess-set-pieces-black-diff-74471018.jpg": {
+      "inputHash": "95eb4abba730cd10",
+      "file": "thumbnails/textures/chess-set-1k/chess-set-pieces-black-diff-74471018.jpg.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/chess-set-1k/chess-set-pieces-black-nor-gl-b92343bb.jpg": {
+      "inputHash": "18823983dada6f68",
+      "file": "thumbnails/textures/chess-set-1k/chess-set-pieces-black-nor-gl-b92343bb.jpg.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/chess-set-1k/chess-set-pieces-black-rough-e0413b36.jpg": {
+      "inputHash": "f336be085894ab21",
+      "file": "thumbnails/textures/chess-set-1k/chess-set-pieces-black-rough-e0413b36.jpg.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/chess-set-1k/chess-set-pieces-white-diff-d9e06002.jpg": {
+      "inputHash": "3c1ab7936aeb41ba",
+      "file": "thumbnails/textures/chess-set-1k/chess-set-pieces-white-diff-d9e06002.jpg.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/chess-set-1k/chess-set-pieces-white-nor-gl-51c31dc4.jpg": {
+      "inputHash": "2327416f176b973e",
+      "file": "thumbnails/textures/chess-set-1k/chess-set-pieces-white-nor-gl-51c31dc4.jpg.webp",
+      "width": 256,
+      "height": 256
+    },
+    "textures/chess-set-1k/chess-set-pieces-white-rough-9604c461.jpg": {
+      "inputHash": "e37197a375012d1a",
+      "file": "thumbnails/textures/chess-set-1k/chess-set-pieces-white-rough-9604c461.jpg.webp",
       "width": 256,
       "height": 256
     }

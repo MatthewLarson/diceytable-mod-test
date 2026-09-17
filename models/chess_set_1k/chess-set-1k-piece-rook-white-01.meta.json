@@ -1,0 +1,45 @@
+{
+  "materialSlots": {
+    "chess_set_pieces_white": "mat-e723de44-ca8f-4ccb-9ed9-200295049bcb"
+  },
+  "originAuthored": true,
+  "collider": {
+    "mode": "custom",
+    "entries": [
+      {
+        "id": "collider-1",
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "shape": "convexHull",
+        "source": "baked",
+        "bakedPath": "models/chess_set_1k/chess-set-1k-piece-rook-white-01.collider.glb",
+        "simplifyRatio": 0.5
+      }
+    ]
+  },
+  "triggers": [
+    {
+      "id": "trigger-1",
+      "name": "Trigger 1",
+      "shape": "box",
+      "position": {
+        "x": 0,
+        "y": 0.063,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": {
+        "x": 0.03,
+        "y": 0.005,
+        "z": 0.03
+      }
+    }
+  ]
+}

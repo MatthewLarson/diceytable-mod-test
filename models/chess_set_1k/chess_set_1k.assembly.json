@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "source": "models/chess_set_1k.glb",
+  "parts": [
+    {
+      "id": "piece-rook-white-01",
+      "label": "piece_rook_white_01",
+      "model": "models/chess_set_1k/chess-set-1k-piece-rook-white-01.glb",
+      "position": {
+        "x": 0.2026817724108696,
+        "y": 0.017335280776023865,
+        "z": -0.20239267498254776
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "piece-pawn-white-01",
+      "label": "piece_pawn_white_01",
+      "model": "models/chess_set_1k/chess-set-1k-piece-pawn-white-01.glb",
+      "position": {
+        "x": 0.20263981819152832,
+        "y": 0.017392918467521667,
+        "z": -0.14470715820789337
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "piece-bishop-white-01",
+      "label": "piece_bishop_white_01",
+      "model": "models/chess_set_1k/chess-set-1k-piece-bishop-white-01.glb",
+      "position": {
+        "x": 0.08685911819338799,
+        "y": 0.017392683774232864,
+        "z": -0.2026285007596016
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "piece-queen-white",
+      "label": "piece_queen_white",
+      "model": "models/chess_set_1k/chess-set-1k-piece-queen-white.glb",
+      "position": {
+        "x": -0.02893904224038124,
+        "y": 0.017126113176345825,
+        "z": -0.2026081159710884
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "piece-king-white",
+      "label": "piece_king_white",
+      "model": "models/chess_set_1k/chess-set-1k-piece-king-white.glb",
+      "position": {
+        "x": 0.02893275674432516,
+        "y": 0.017399143427610397,
+        "z": -0.20260435342788696
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "piece-knight-white-01",
+      "label": "piece_knight_white_01",
+      "model": "models/chess_set_1k/chess-set-1k-piece-knight-white-01.glb",
+      "position": {
+        "x": 0.14471615850925446,
+        "y": 0.017392652109265327,
+        "z": -0.20099468529224396
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "board",
+      "label": "board",
+      "model": "models/chess_set_1k/chess-set-1k-board.glb",
+      "position": {
+        "x": 0,
+        "y": 0.00004289278149371967,
+        "z": 0
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "piece-rook-black-01",
+      "label": "piece_rook_black_01",
+      "model": "models/chess_set_1k/chess-set-1k-piece-rook-black-01.glb",
+      "position": {
+        "x": -0.2026817724108696,
+        "y": 0.017335280776023865,
+        "z": 0.20168433338403702
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "piece-pawn-black-01",
+      "label": "piece_pawn_black_01",
+      "model": "models/chess_set_1k/chess-set-1k-piece-pawn-black-01.glb",
+      "position": {
+        "x": -0.20263981819152832,
+        "y": 0.017392918467521667,
+        "z": 0.14399881660938263
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "piece-bishop-black-01",
+      "label": "piece_bishop_black_01",
+      "model": "models/chess_set_1k/chess-set-1k-piece-bishop-black-01.glb",
+      "position": {
+        "x": -0.08685911819338799,
+        "y": 0.017392683774232864,
+        "z": 0.20192015916109085
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "piece-queen-black",
+      "label": "piece_queen_black",
+      "model": "models/chess_set_1k/chess-set-1k-piece-queen-black.glb",
+      "position": {
+        "x": -0.02894903626292944,
+        "y": 0.017126113176345825,
+        "z": 0.20189977437257767
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "piece-king-black",
+      "label": "piece_king_black",
+      "model": "models/chess_set_1k/chess-set-1k-piece-king-black.glb",
+      "position": {
+        "x": 0.028955303132534027,
+        "y": 0.017399072647094727,
+        "z": 0.20260420441627502
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    },
+    {
+      "id": "piece-knight-black-01",
+      "label": "piece_knight_black_01",
+      "model": "models/chess_set_1k/chess-set-1k-piece-knight-black-01.glb",
+      "position": {
+        "x": -0.14471615850925446,
+        "y": 0.017392652109265327,
+        "z": 0.20028634369373322
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    }
+  ]
+}
