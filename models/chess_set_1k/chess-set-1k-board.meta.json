@@ -1,0 +1,37 @@
+{
+  "scale": {
+    "x": 3,
+    "y": 3,
+    "z": 3
+  },
+  "locked": true,
+  "materialSlots": {
+    "chess_set_board": "mat-f7581291-143e-4b86-af8e-6ed8f632cbfe"
+  },
+  "lightmapStatic": true,
+  "originAuthored": true,
+  "collider": {
+    "mode": "custom",
+    "entries": [
+      {
+        "id": "collider-1",
+        "offset": {
+          "x": 0,
+          "y": 0.027,
+          "z": 0
+        },
+        "scale": {
+          "x": 3,
+          "y": 3,
+          "z": 3
+        },
+        "shape": "box",
+        "size": {
+          "x": 0.5532379746437073,
+          "y": 0.017349692061543465,
+          "z": 0.5532379746437073
+        }
+      }
+    ]
+  }
+}
