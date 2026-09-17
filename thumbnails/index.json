@@ -80,6 +80,12 @@
       "width": 256,
       "height": 256
     },
+    "assets/textures/decks/deck-1/sheet-1.webp": {
+      "inputHash": "2d1e5bef482307b5",
+      "file": "thumbnails/assets/textures/decks/deck-1/sheet-1.webp.webp",
+      "width": 256,
+      "height": 239
+    },
     "media/cover-thumb.webp": {
       "inputHash": "33aeae1a9315b13d",
       "file": "thumbnails/media/cover-thumb.webp.webp",
@@ -111,7 +117,7 @@
       "height": 256
     },
     "models/chess_set_1k/chess-set-1k-board.glb": {
-      "inputHash": "d66c380f1cc062c1",
+      "inputHash": "46173482afbb59fb",
       "file": "thumbnails/models/chess_set_1k/chess-set-1k-board.glb.webp",
       "width": 256,
       "height": 256
@@ -189,7 +195,7 @@
       "height": 256
     },
     "models/chess_set_1k/chess_set_1k.assembly.json": {
-      "inputHash": "aa14acf2e5111c27",
+      "inputHash": "75390fa99bfad124",
       "file": "thumbnails/models/chess_set_1k/chess_set_1k.assembly.json.webp",
       "width": 256,
       "height": 256

@@ -1,8 +1,8 @@
 {
   "scale": {
-    "x": 3,
-    "y": 3,
-    "z": 3
+    "x": 1,
+    "y": 1,
+    "z": 1
   },
   "locked": true,
   "materialSlots": {
@@ -15,15 +15,10 @@
     "entries": [
       {
         "id": "collider-1",
-        "offset": {
-          "x": 0,
-          "y": 0.027,
-          "z": 0
-        },
         "scale": {
-          "x": 3,
-          "y": 3,
-          "z": 3
+          "x": 1,
+          "y": 1,
+          "z": 1
         },
         "shape": "box",
         "size": {
