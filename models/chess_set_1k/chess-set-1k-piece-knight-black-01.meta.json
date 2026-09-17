@@ -1,4 +1,8 @@
 {
+  "tags": [
+    "piece",
+    "black"
+  ],
   "materialSlots": {
     "chess_set_pieces_black": "mat-7913d0ee-b6b8-4147-bdb1-2124c1ceab07"
   },
@@ -23,7 +27,7 @@
   "triggers": [
     {
       "id": "trigger-1",
-      "name": "Trigger 1",
+      "name": "CaptureTrigger",
       "shape": "box",
       "position": {
         "x": 0,
@@ -39,7 +43,8 @@
         "x": 0.03,
         "y": 0.005,
         "z": 0.04
-      }
+      },
+      "tag": "capture"
     }
   ]
 }

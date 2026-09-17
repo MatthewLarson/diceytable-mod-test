@@ -28,7 +28,7 @@
   "triggers": [
     {
       "id": "trigger-1",
-      "name": "Trigger 1",
+      "name": "CaptureTrigger",
       "shape": "box",
       "position": {
         "x": 0,
