@@ -38,21 +38,9 @@
       "width": 256,
       "height": 256
     },
-    "@materials/mat-ceiling": {
-      "inputHash": "220ee3bdf8d37625",
-      "file": "thumbnails/@materials/mat-ceiling.webp",
-      "width": 256,
-      "height": 256
-    },
     "@materials/mat-d456ec9a-9fff-47b0-934c-98c61306834a": {
       "inputHash": "1896d4ec4a3b5b65",
       "file": "thumbnails/@materials/mat-d456ec9a-9fff-47b0-934c-98c61306834a.webp",
-      "width": 256,
-      "height": 256
-    },
-    "@materials/mat-default": {
-      "inputHash": "eccf03f485688ce9",
-      "file": "thumbnails/@materials/mat-default.webp",
       "width": 256,
       "height": 256
     },
@@ -67,24 +55,6 @@
       "file": "thumbnails/@materials/mat-f7581291-143e-4b86-af8e-6ed8f632cbfe.webp",
       "width": 256,
       "height": 256
-    },
-    "@materials/mat-floor": {
-      "inputHash": "4faeb6a28ac0884c",
-      "file": "thumbnails/@materials/mat-floor.webp",
-      "width": 256,
-      "height": 256
-    },
-    "@materials/mat-wall": {
-      "inputHash": "8b1c33f064be0752",
-      "file": "thumbnails/@materials/mat-wall.webp",
-      "width": 256,
-      "height": 256
-    },
-    "assets/textures/decks/deck-1/sheet-1.webp": {
-      "inputHash": "2d1e5bef482307b5",
-      "file": "thumbnails/assets/textures/decks/deck-1/sheet-1.webp.webp",
-      "width": 256,
-      "height": 239
     },
     "media/cover-thumb.webp": {
       "inputHash": "33aeae1a9315b13d",
