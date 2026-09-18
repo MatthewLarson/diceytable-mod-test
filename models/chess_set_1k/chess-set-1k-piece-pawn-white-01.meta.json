@@ -1,7 +1,8 @@
 {
   "tags": [
     "piece",
-    "white"
+    "white",
+    "pawn"
   ],
   "materialSlots": {
     "chess_set_pieces_white": "mat-e723de44-ca8f-4ccb-9ed9-200295049bcb"
