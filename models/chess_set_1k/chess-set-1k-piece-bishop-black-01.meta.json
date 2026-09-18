@@ -1,7 +1,8 @@
 {
   "tags": [
     "piece",
-    "black"
+    "black",
+    "bishop"
   ],
   "materialSlots": {
     "chess_set_pieces_black": "mat-7913d0ee-b6b8-4147-bdb1-2124c1ceab07"
