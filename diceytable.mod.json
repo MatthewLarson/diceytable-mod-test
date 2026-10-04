@@ -2,13 +2,16 @@
   "schemaVersion": "1.0",
   "id": "matt-s-test-workspace",
   "name": "Chess",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
     "script": "scripts/main.js"
   },
   "assets": [
+    "ai/maia-1100.onnx",
+    "ai/maia-1500.onnx",
+    "ai/maia-1900.onnx",
     "media/cover-thumb.webp",
     "media/cover.webp",
     "media/screenshot-0.webp",
@@ -73,14 +76,14 @@
       "log"
     ]
   },
-  "license": "MIT",
+  "license": "GPL-3.0-or-later",
   "tags": [
     "chess",
     "classic",
     "competitive",
     "board"
   ],
-  "description": "# ♟️ Classic Chess\n\nBring the timeless strategy game of **Chess** to Dicey Table! This mod includes everything you need to play a traditional game of chess with a friend, featuring a clean, classic design that feels right at home on any virtual tabletop.\n\n## Features\n\n- ♔ Complete set of 32 chess pieces\n- ⬛ Standard 8×8 chess board\n- 🎨 Classic black and white piece design\n- 👥 Designed for 2 players\n- 🖱️ Easy to pick up, move, and rotate pieces\n- 🎲 Perfect for casual games or competitive matches\n\n## How to Play\n\n1. Invite another player to your table.\n2. Choose who will play White and Black.\n3. White moves first.\n4. Play using the standard rules of chess until one player achieves checkmate, or the game ends in a draw.\n\n## Notes\n\nThis is a faithful recreation of classic chess intended for players of all skill levels. No automation or rule enforcement is included, allowing players complete freedom to play however they like.\n\nWhether you're teaching a new player, practicing openings, or battling a longtime rival, this mod provides everything needed for a classic game of chess.\n\n**Good luck, and may the best strategist win!** ♟️",
+  "description": "# ♟️ Classic Chess\n\nBring the timeless strategy game of **Chess** to Dicey Table! This mod includes everything you need to play a traditional game of chess with a friend, featuring a clean, classic design that feels right at home on any virtual tabletop.\n\n## Features\n\n- ♔ Complete set of 32 chess pieces\n- ⬛ Standard 8×8 chess board\n- 🎨 Classic black and white piece design\n- 👥 Designed for 2 players\n- 🖱️ Easy to pick up, move, and rotate pieces\n- 🎲 Perfect for casual games or competitive matches\n- 🤖 A Scripted variant with full rules and computer opponents\n\n## How to Play\n\n1. Invite another player to your table.\n2. Choose who will play White and Black.\n3. White moves first.\n4. Play using the standard rules of chess until one player achieves checkmate, or the game ends in a draw.\n\n## Variants\n\n- **Unscripted** — no rule enforcement, allowing players complete freedom to play however they like.\n- **Scripted** — the table knows the rules. Illegal moves are refused, captures go to the capture zones, castling, en passant and promotion are finished for you, and check, checkmate and draws are announced. Right-click the board for a new game, to resign, or to play on from a position you set up by hand. Play against a friend or a bot:\n  - **Maia** — neural networks trained on human games to play like people rated about 1100, 1500 or 1900.\n  - **Minimax** — a classic search bot that runs on any device.\n\nWhether you're teaching a new player, practicing openings, or battling a longtime rival, this mod provides everything needed for a classic game of chess.\n\n**Good luck, and may the best strategist win!** ♟️\n\n## Credits and licence\n\nThe Maia bot uses the Maia Chess networks by CSSLab (University of Toronto), released under the GNU GPL v3 — source: <https://github.com/CSSLab/maia-chess>. Because it ships them, this mod is distributed under the GPL v3 or later. The chess set is CC0 (Poly Haven).",
   "players": {
     "min": 2,
     "max": 2
@@ -193,7 +196,228 @@
         "acceptedAt": "2026-09-17T17:45:38.657Z",
         "signedName": "Matt Larson"
       }
+    },
+    {
+      "id": "credit-3f23bf25-7892-4aea-9253-04af875c6b53",
+      "paths": [
+        "ai/maia-1100.onnx",
+        "ai/maia-1500.onnx",
+        "ai/maia-1900.onnx"
+      ],
+      "origin": "third-party",
+      "title": "Maia Chess networks (1100, 1500, 1900)",
+      "creator": "CSSLab, University of Toronto (McIlroy-Young, Sen, Kleinberg, Anderson)",
+      "creatorUrl": "https://maiachess.com",
+      "sourceUrl": "https://github.com/CSSLab/maia-chess",
+      "licenseName": "GPL-3.0",
+      "licenseUrl": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "notes": "Maia Chess weights (CSSLab maia-chess release v1.0, GPL-3.0), converted to ONNX with lc0 0.32.1 by cstr (huggingface.co/cstr/maia-chess-onnx-opset15, GPL-3.0). Modified for DiceyTable: the three graph tensor names were renamed to same-length legal names (/input/planes -> input__planes, /output/policy -> output__policy, /output/wdl -> output__wdl); weights and graph are otherwise unchanged. Source for the weights: https://github.com/CSSLab/maia-chess",
+      "recordedAt": "2026-10-04T01:32:18.954Z",
+      "aiAttestation": {
+        "termsVersion": "2026-09-07.1",
+        "agentSessionId": "790908ec-a8ed-4a29-863a-bd97ee954379",
+        "client": "claude-code 2.1.286",
+        "attestedAt": "2026-10-04T01:32:18.954Z",
+        "review": {
+          "reviewedAt": "2026-10-04T01:52:58.151Z",
+          "signedName": "Matt Larson",
+          "termsVersion": "2026-09-07.1"
+        }
+      },
+      "attestation": {
+        "termsVersion": "2026-09-07.1",
+        "acceptedAt": "2026-10-04T01:52:58.151Z",
+        "signedName": "Matt Larson"
+      }
     }
   ],
-  "diceEnabled": false
+  "diceEnabled": false,
+  "variants": [
+    {
+      "id": "standard",
+      "name": "Unscripted",
+      "description": "The standard, unscripted version of chess, where you enforce the rules yourself."
+    },
+    {
+      "id": "scripted",
+      "name": "Scripted",
+      "description": "A fully scripted variant of Chess with rules enforced and victory conditions."
+    }
+  ],
+  "aiModels": [
+    {
+      "id": "maia-1100",
+      "label": "Maia 1100",
+      "path": "ai/maia-1100.onnx",
+      "format": "onnx",
+      "sizeBytes": 3483872,
+      "sha256": "472d00539dc33efedb702b7474f945440c446d97b6207dcea19e98c058dd23d0",
+      "inputs": [
+        {
+          "name": "input__planes",
+          "shape": [
+            -1,
+            112,
+            8,
+            8
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output__policy",
+          "shape": [
+            -1,
+            1858
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "output__wdl",
+          "shape": [
+            -1,
+            3
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "minTier": "cpu-basic",
+      "opset": 17
+    },
+    {
+      "id": "maia-1500",
+      "label": "Maia 1500",
+      "path": "ai/maia-1500.onnx",
+      "format": "onnx",
+      "sizeBytes": 3483872,
+      "sha256": "1d8121142b441101b73bde6252e831bd694cb40c4741cb01399034fc180d40bd",
+      "inputs": [
+        {
+          "name": "input__planes",
+          "shape": [
+            -1,
+            112,
+            8,
+            8
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output__policy",
+          "shape": [
+            -1,
+            1858
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "output__wdl",
+          "shape": [
+            -1,
+            3
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "minTier": "cpu-basic",
+      "opset": 17
+    },
+    {
+      "id": "maia-1900",
+      "label": "Maia 1900",
+      "path": "ai/maia-1900.onnx",
+      "format": "onnx",
+      "sizeBytes": 3483872,
+      "sha256": "9c1ffa970fe748f66944feb968fd50a80856cbbc1e1b383d6297f6dd130fc926",
+      "inputs": [
+        {
+          "name": "input__planes",
+          "shape": [
+            -1,
+            112,
+            8,
+            8
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output__policy",
+          "shape": [
+            -1,
+            1858
+          ],
+          "dtype": "float32"
+        },
+        {
+          "name": "output__wdl",
+          "shape": [
+            -1,
+            3
+          ],
+          "dtype": "float32"
+        }
+      ],
+      "minTier": "cpu-basic",
+      "opset": 17
+    }
+  ],
+  "bots": [
+    {
+      "id": "minimax",
+      "label": "Minimax",
+      "kind": "scripted",
+      "handler": "minimax",
+      "difficulties": [
+        {
+          "id": "easy",
+          "label": "Easy",
+          "description": "Looks one move ahead, and not always at the best one."
+        },
+        {
+          "id": "normal",
+          "label": "Normal",
+          "description": "Looks two moves ahead and follows exchanges through."
+        },
+        {
+          "id": "hard",
+          "label": "Hard",
+          "description": "Looks three moves ahead and follows exchanges through."
+        }
+      ],
+      "defaultDifficulty": "normal",
+      "description": "Counts material and weighs where the pieces stand. Runs on any device."
+    },
+    {
+      "id": "maia",
+      "label": "Maia",
+      "kind": "ai",
+      "modelId": "maia-1500",
+      "fallbackBotId": "minimax",
+      "handler": "maia",
+      "difficulties": [
+        {
+          "id": "easy",
+          "label": "Easy (~1100)",
+          "description": "Plays like a club player rated about 1100."
+        },
+        {
+          "id": "medium",
+          "label": "Medium (~1500)",
+          "description": "Plays like a club player rated about 1500."
+        },
+        {
+          "id": "hard",
+          "label": "Hard (~1900)",
+          "description": "Plays like a strong club player rated about 1900."
+        }
+      ],
+      "defaultDifficulty": "medium",
+      "description": "A neural network trained on human games (Maia Chess) to play the way people of a given rating play."
+    }
+  ]
 }

@@ -18,6 +18,7 @@ Bring the timeless strategy game of **Chess** to Dicey Table! This mod includes 
 - 👥 Designed for 2 players
 - 🖱️ Easy to pick up, move, and rotate pieces
 - 🎲 Perfect for casual games or competitive matches
+- 🤖 A Scripted variant with full rules and computer opponents
 
 ## How to Play
 
@@ -26,13 +27,20 @@ Bring the timeless strategy game of **Chess** to Dicey Table! This mod includes 
 3. White moves first.
 4. Play using the standard rules of chess until one player achieves checkmate, or the game ends in a draw.
 
-## Notes
+## Variants
 
-This is a faithful recreation of classic chess intended for players of all skill levels. No automation or rule enforcement is included, allowing players complete freedom to play however they like.
+- **Unscripted** — no rule enforcement, allowing players complete freedom to play however they like.
+- **Scripted** — the table knows the rules. Illegal moves are refused, captures go to the capture zones, castling, en passant and promotion are finished for you, and check, checkmate and draws are announced. Right-click the board for a new game, to resign, or to play on from a position you set up by hand. Play against a friend or a bot:
+  - **Maia** — neural networks trained on human games to play like people rated about 1100, 1500 or 1900.
+  - **Minimax** — a classic search bot that runs on any device.
 
 Whether you're teaching a new player, practicing openings, or battling a longtime rival, this mod provides everything needed for a classic game of chess.
 
 **Good luck, and may the best strategist win!** ♟️
+
+## Credits and licence
+
+The Maia bot uses the Maia Chess networks by CSSLab (University of Toronto), released under the GNU GPL v3 — source: <https://github.com/CSSLab/maia-chess>. Because it ships them, this mod is distributed under the GPL v3 or later. The chess set is CC0 (Poly Haven).
 
 ---
 
