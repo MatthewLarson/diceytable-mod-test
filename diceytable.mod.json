@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "matt-s-test-workspace",
   "name": "Chess",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
@@ -241,7 +241,12 @@
     {
       "id": "scripted",
       "name": "Scripted",
-      "description": "A fully scripted variant of Chess with rules enforced and victory conditions."
+      "description": "A fully scripted variant of Chess with rules enforced and victory conditions.",
+      "rulesEnforced": true,
+      "ranking": {
+        "draws": true,
+        "requireKernel": true
+      }
     }
   ],
   "aiModels": [
