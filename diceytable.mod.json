@@ -2,7 +2,7 @@
   "schemaVersion": "1.0",
   "id": "matt-s-test-workspace",
   "name": "Chess",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "game-pack",
   "entry": {
     "setup": "setup.json",
